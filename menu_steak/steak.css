@@ -1,0 +1,41 @@
+/* steak.css */
+
+/* Typography & Base */
+body {
+  background-color: #fffaf5;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.menu-title {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+/* Card Styling */
+.menu-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.menu-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.menu-card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #b22222;
+}
+
+.price {
+  color: #dc3545;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
